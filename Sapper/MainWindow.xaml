@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sapper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="460"
+        Width="450"
+        Background="Khaki"
+        ResizeMode="NoResize">
     <Grid>
+
+        <Canvas x:Name="MainCanvas" Height="400" Width="400"/>
+        <!-- <Button Width="20" Content="*" Height="20" Background="Azure" IsEnabled="False"/> Button_OnClick<TextBox x:Name="textBox" Height="25" VerticalAlignment="Bottom"></TextBox>-->
 
     </Grid>
 </Window>
